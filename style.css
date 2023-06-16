@@ -90,14 +90,12 @@ h2 {
   margin-bottom: 2%;
   margin-right: 30%;
   width: 400px;
-  height: 300px;
 }
 .heroimage {
   margin-top: 2%;
   margin-bottom: 2%;
   margin-right: 30%;
   width: 400px;
-  height: 390px;
 }
 .hireme {
   border: 1px solid #155eef;
@@ -124,9 +122,8 @@ a {
   margin-top: 2%;
   margin-bottom: 2%;
   position: absolute;
-/* height: auto; */
 left: 45%;
-Top: 165%;
+Top: 152%;
 }
 
   .containerwriteup{
