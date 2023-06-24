@@ -167,16 +167,19 @@ color: #2E3A53;
     flex-direction: column;
     text-align: center;
     margin: 1%;
+    flex-wrap: wrap;
   }
   .container2{
     flex-direction: column-reverse;
     text-align: center;
     margin: 1%;
+    flex-wrap: wrap;
   }
   .container3{
     flex-direction: column;
 text-align: center;
 margin: 1%;
+flex-wrap: wrap;
   }
   .containerwriteup{
     width: 100%;
@@ -226,6 +229,7 @@ li{
   justify-content: space-between;
   align-items: center;
   border-radius: 8px; 
+  flex-wrap: wrap;
 }
 .footerimage{
   width: 60%;
@@ -247,7 +251,8 @@ li{
 }
 .nav-list{
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: 0%;
   padding: 0% 
