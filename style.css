@@ -9,7 +9,7 @@
 .nav-list {
   display: flex;
   margin: 0%;
-  padding: 0%;
+  padding-bottom: 1%;
   border: 2px solid #155eef;
   flex-direction: row;
   justify-content: space-between;
@@ -112,6 +112,13 @@ h2 {
   border: 1px solid #155eef;
   border-radius: 4px;
   color: #155eef;
+  background-color: #ffffff;
+  font-family: "Halant";
+  font-size: 24px;
+  font-weight: 500;
+  /* line-height: 24px; */
+  padding: 8px;
+  width: 100%;
 }
 a {
   text-decoration: none;
@@ -134,7 +141,7 @@ a {
   margin-bottom: 3%;
   position: absolute;
 left: 45%;
-top: 225%;
+top: 245%;
 }
 
   .containerwriteup{
@@ -162,7 +169,7 @@ color: #2E3A53;
     line-height: 36px;
     color: #2e3a53;
   }
- @media screen and (max-width: 900px) {  
+ @media screen and (max-width: 950px) {  
   .container{ 
     flex-direction: column;
     text-align: center;
@@ -219,7 +226,7 @@ li{
 .heroimage{
   width: 100%;
 } 
-.footer{
+/* .footer{ */
   display: flex;
   margin: 0%;
   padding: 0%;
@@ -230,7 +237,7 @@ li{
   align-items: center;
   border-radius: 8px; 
   flex-wrap: wrap;
-}
+/* } */
 .footerimage{
   width: 60%;
   flex-wrap: wrap;
