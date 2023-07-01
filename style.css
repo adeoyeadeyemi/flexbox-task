@@ -226,7 +226,7 @@ li{
 .heroimage{
   width: 100%;
 } 
-/* .footer{ */
+/* .footer{
   display: flex;
   margin: 0%;
   padding: 0%;
@@ -237,7 +237,7 @@ li{
   align-items: center;
   border-radius: 8px; 
   flex-wrap: wrap;
-/* } */
+} */
 .footerimage{
   width: 60%;
   flex-wrap: wrap;
