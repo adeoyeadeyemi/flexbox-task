@@ -3,7 +3,7 @@
   padding: 0% 15px;
   box-sizing: border-box;
 }
-.navbar {
+.lines {
   display:none
 }
 .nav-list {
@@ -141,7 +141,7 @@ a {
   margin-bottom: 3%;
   position: absolute;
 left: 45%;
-top: 250%;
+top: 240%;
 }
 
   .containerwriteup{
@@ -169,6 +169,10 @@ color: #2E3A53;
     line-height: 36px;
     color: #2e3a53;
   }
+  .nav{
+    display: none;
+  }
+  
  @media screen and (max-width: 950px) {  
   .container{ 
     flex-direction: column;
@@ -271,5 +275,30 @@ li{
 .headerlogo{
   width: 70%;
 }
-
+/* .nav{
+  display: block;
+} */
+.hireme{
+  display: none;
+}
+.lines{
+  display: block;
+}
+.lines{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    cursor: pointer;
+  }
+  .line{
+    width: 50px;
+    height: 5px;
+    background-color: black;
+  }
+  .one{
+    margin-bottom: 5px;
+  }
+  .two{
+    margin-bottom: 5px;
+  }
 }
